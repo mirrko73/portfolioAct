@@ -48,20 +48,24 @@ header{
     position: relative;
 }
 
-.iconContainer .iconApps{
+.iconContainer{
     display: flex;
-    gap: 2vw;
-    position: absolute;
-    left: 8px;
     justify-content: center;
     align-items: center;
 }
-.iconApps .centrariconApps{
-    margin-left: 4px;
+.iconContainer .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.iconApps i:hover{
+
+.icon i:hover{
     filter: drop-shadow(0 0 0.75rem rgb(241, 237, 238))
+}
+
+.icon i{
+    position: absolute;
 }
 
 .icon1{
